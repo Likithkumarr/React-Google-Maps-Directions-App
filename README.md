@@ -1,12 +1,29 @@
-# React + Vite
+**🚀 React Google Maps Directions & Route Planner**
+A React-based web application that integrates the Google Maps JavaScript API to provide real-time directions, routing, and navigation between two locations. Users can enter a source and destination, and the app displays the optimized route with turn-by-turn paths on an interactive map.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🔥 Features**
+🗺️ Google Maps integration using Maps JavaScript API
+📍 Source & Destination input fields
+🚘 Route drawing with Directions API
+➡️ Real-time navigation path rendering
+🎯 Custom markers for start and end points
+📏 Distance & duration calculation (optional)
+📡 Responsive and interactive UI
 
-Currently, two official plugins are available:
+**🛠️ Tech Stack**
+React.js
+Google Maps JavaScript API
+Directions Service & Renderer
+CSS 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**📦 How It Works**
+User enters start and end locations
+App sends a request to Google Directions API
+Google returns route details
+The map displays the route line, markers, distance, and time
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**🎯 Use Cases**
+Route planning apps
+Delivery or logistics systems
+Location-based services
+Real-time navigation tools
